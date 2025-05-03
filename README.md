@@ -1,6 +1,6 @@
 # Ender-3-Belt-Conversion
 
-The goal of this project is to convert a Creality Ender 3 into a belt printer with 45° gantry, belt driven Y axis, direct drive extruder, Marlin firmware, and octoprint integration. My main inspiration for this was [Rob Mink's BabyBelt](https://github.com/robmink/babybeltpro?tab=readme-ov-file) but after obtaining an Ender 3 for £10, I wanted to dream bigger. There are a few existing conversion kits that I will take designs from and mix together to create a base. However, there are some improvements of my own I will make. Please see the sources below for more information.
+The goal of this project is to convert a Creality Ender 3 into a belt printer with 45° gantry, belt driven Y axis, belt leveling, direct drive extruder, Marlin firmware, and octoprint integration. My main inspiration for this was [Rob Mink's BabyBelt](https://github.com/robmink/babybeltpro?tab=readme-ov-file) but after obtaining an Ender 3 for £10, I wanted to dream bigger. There are a few existing conversion kits that I will take designs from and mix together to create a base. However, there are some improvements of my own I will make. Please see the sources below for more information. I am yet to come acr
 
 ---
 
@@ -14,11 +14,19 @@ There are some disadvantages and current challenges of belt printers that should
 
 # Specification
 
+## Bill Of Materials (BOM)
+- [BOM](https://docs.google.com/spreadsheets/d/178zfhOCxQkKwXSsYTMhiHnuOy7WKMyQlvfpmbKbyGXg/edit?usp=sharing)
+
+## Progress Tracking
+
 - [ ] Covert Gantry Angle to 45°
 - [ ] Y Axis Belt Conversion
 - [ ] Conveyor Belt Bed
+- [ ] Relocate Bed Leveling Screws
 - [ ] Direct Drive Extruder
 - [ ] Custom Marlin Firmware
+- [ ] BL Touch Integration
+- [ ] Cura Profile
 - [ ] OctoPrint Integration
 
 ---
