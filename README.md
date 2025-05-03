@@ -1,6 +1,6 @@
 # Ender-3-Belt-Conversion
 
-The goal of this project is to convert a Creality Ender 3 into a belt printer with 45° gantry, belt driven Y axis, with octoprint integration. My main inspiration for this was the baby belt but after obtaining an Ender 3 for £10, I wanted to dream bigger.
+The goal of this project is to convert a Creality Ender 3 into a belt printer with 45° gantry, belt driven Y axis, direct drive extruder, Marlin firmware, and octoprint integration. My main inspiration for this was [Rob Mink's BabyBelt](https://github.com/robmink/babybeltpro?tab=readme-ov-file) but after obtaining an Ender 3 for £10, I wanted to dream bigger. There are a few existing conversion kits that I will take designs from and mix together to create a base. However, there are some improvements of my own I will make. Please see the sources below for more information.
 
 ---
 
@@ -12,12 +12,23 @@ There are some disadvantages and current challenges of belt printers that should
 
 ---
 
+# Specification
+
+- [ ] Covert Gantry Angle to 45°
+- [ ] Y Axis Belt Conversion
+- [ ] Conveyor Belt Bed
+- [ ] Direct Drive Extruder
+- [ ] Custom Marlin Firmware
+- [ ] OctoPrint Integration
+
+---
+
 # Sources:
-## - Baby Belt: 
+### - Baby Belt: 
 https://github.com/robmink/babybeltpro?tab=readme-ov-file
-## - EnderLoop: 
+### - EnderLoop: 
 https://github.com/mcsgroi/EnderLoop?tab=readme-ov-file
-## - Ender EZ Belt:
+### - Ender EZ Belt:
 https://www.printables.com/model/255684-ender-ez-belt-3d-printer-conversion/comments
-## - Belt3DPrinterKit Belts:
+### - Belt3DPrinterKit Belts:
 https://belt3dprinterkit.com/products/blue-conveyor-belt-improved-adhesion?variant=42418349310103
